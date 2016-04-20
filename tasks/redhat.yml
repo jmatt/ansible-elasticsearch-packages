@@ -5,7 +5,7 @@
   rpm_key: state=present key=https://packages.elastic.co/GPG-KEY-elasticsearch
 
 - name: Add the Elasticsearch repository.
-  yumrepo:
+  yum_repository:
     name: Elasticsearch repository
     description: Elasticsearch repository for 2.x packages.
     baseurl: http://download.fedoraproject.org/pub/epel/$releasever/$basearch/
