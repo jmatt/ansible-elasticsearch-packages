@@ -1,5 +1,5 @@
 ---
-# Install java packages on debian based distributions.
+# Install Elasticsearch packages on debian based distributions.
 
 - name: Add Elasticsearch apt key
   apt_key: url=https://packages.elastic.co/GPG-KEY-elasticsearch state=present
