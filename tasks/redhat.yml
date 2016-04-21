@@ -7,9 +7,10 @@
 - name: Add the Elasticsearch repository.
   yum_repository:
     name: Elasticsearch repository
-    description: Elasticsearch repository for 2.x packages.
-    baseurl: http://download.fedoraproject.org/pub/epel/$releasever/$basearch/
+    description: Elasticsearch repository for 5.x packages.
+    baseurl: https://packages.elastic.co/elasticsearch/5.x/centos
     gpgcheck: yes
+    enabled: yes
 
 - name: Install elasticsearch.
   yum: name=elasticsearch state=latest
