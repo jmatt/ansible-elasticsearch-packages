@@ -3,7 +3,7 @@ ansible-elasticsearch-packages
 
 [![Build Status](https://travis-ci.org/jmatt/ansible-elasticsearch-packages.svg?branch=master)](https://travis-ci.org/jmatt/ansible-elasticsearch-packages)
 
-Install elasticsearch packages for LSST SQuaRE infrastructure.
+Install elasticsearch v 5.0 packages for LSST SQuaRE infrastructure.
 
 Example Playbook
 ----------------
@@ -15,4 +15,4 @@ Example Playbook
 License
 -------
 
-See the [LICENSE file](/LICENSE).
+See the [LICENSE file](https://github.com/jmatt/ansible-elasticsearch-packages/blob/master/LICENSE).
