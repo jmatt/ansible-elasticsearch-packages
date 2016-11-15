@@ -1,5 +1,5 @@
 ---
 # Configure the Elasticsearch service.
 
-- name: Add Easticsearch to automatically start during bootup.
-  command: update-rc.d elasticsearch defaults 95 10
+- name: Add Elasticsearch to automatically start during bootup.
+  service: name=elasticsearch state=started enabled=true
